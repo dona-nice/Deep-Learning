@@ -10,11 +10,11 @@ classifier to classify network traffic intrusions in the NSL-KDD dataset as norm
 
 I also analysed three different FFDNNs, namely FFDNN-1, FFDNN-2, FFDNN-3 based on different hyperparameter values, feature reduction, and data encoding techniques. Their performances on the test data are 89%, 84%, and 87% respectively. Some important performance indicators, namely, accuracy, true positive rate (TPR = recall), false-positive rate (FPR), precision, F1 measure, and ROC area under the curve (AUC) are used as the bases to judge the model's performance.
 
-![image](https://github.com/user-attachments/assets/5804b98d-e284-4ce2-9084-12bc64e3c93f)
+<img src="https://github.com/user-attachments/assets/5804b98d-e284-4ce2-9084-12bc64e3c93f" alt="Alt Text" width="500" height="300">
 
-![image](https://github.com/user-attachments/assets/cc1585c2-23f2-4677-979f-b1e169acc652)
+<img src="https://github.com/user-attachments/assets/cc1585c2-23f2-4677-979f-b1e169acc652" alt="Alt Text" width="500" height="300">
 
-![image](https://github.com/user-attachments/assets/98d06605-e840-4f02-8b62-93650c08bbdc)
+<img src="https://github.com/user-attachments/assets/98d06605-e840-4f02-8b62-93650c08bbdc" alt="Alt Text" width="500" height="300">
 
 Considering overall performances of all models, the FFDNN-1 performed best with the highest detection accuracy of 89% and precision of 91%, however, the precisions of the DT, RF, and NB were quite high even though their detection accuracy was not above 80% except DT that gave 81%. High precision indicates that the models are reliable compared to low precision, which can result in a lot of false positives as in the case of the KNN classifier. Another point to note is that high recall does not necessarily mean the best performance, but rather higher F1-measure shows that the model had performed very well. This is because the F1 measure takes into account the harmonic mean of precision and recall, so it tells how accurate a model is. From the results shown in Table 17, FFDNN-1 had an F1-measure of 90%, which makes it the best model, other FFDNN variants also had a high F1-measure when compared to the F1-measure of the conventional machine learning algorithms. 
 
